@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020"],
+    "target": "es2020",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    // "declaration": true,
+    "outDir": "./dist",
+    "strictNullChecks": false,
+    "skipLibCheck": true
+  },
+  "include": ["src/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
